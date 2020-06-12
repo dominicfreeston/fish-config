@@ -225,7 +225,7 @@ function fish_prompt
   prompt_dir
   available hg;  and prompt_hg
   available git; and prompt_git
-  available svn; and prompt_svn
+  # available svn; and prompt_svn
   prompt_finish
   printf "\n\$ "
 end
